@@ -11,3 +11,6 @@ echo "alias '$a' = '$f'" >> alias.txt
 echo "Comando creado: "
 echo "alias '$a' = '$f'"
 echo "Se ha creado y guardado el alias."
+
+echo "Alias guardados: "
+cat alias.txt

@@ -8,5 +8,5 @@ read nombrefuncion
 
 echo alias "$nombrealias"="'$nombrefuncion'" >> alias.txt && echo "Se ha creado tu alias con exito"
 echo "Su comando: $nombrealias='$nombrefuncion'"
-
+cat alias.txt
 

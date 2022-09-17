@@ -25,4 +25,4 @@ usu=$USER
 	esac
 done
 lscpu>My_infoLoging.txt && finger>>My_infoLoging.txt
-chmod -wx ./Ejercicio1.sh
+chmod -wx ./alan_chilpa_43_1.sh

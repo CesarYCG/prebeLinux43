@@ -1,3 +1,0 @@
-alias 'cls'='clear'
-alias 'proteco'='cd ~/proteco/scripts'
-alias hola='echo hola'

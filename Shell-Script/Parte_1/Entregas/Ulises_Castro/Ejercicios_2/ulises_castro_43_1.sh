@@ -1,11 +1,7 @@
 #! /bin/bash
 
-ls -l /dev/sd*
-echo "Dame el identificador de la particion donde se encuentra la USB:"
-read part
-
 mkdir /media/USB
-mount -t -vfat /dev/$part /media/usb && cumple=1
+mount -t -vfat /dev/sdb1 /media/usb && cumple=1
 
 if [[ $cumple -eq 1 ]]
 then
